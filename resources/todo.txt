@@ -1,0 +1,7 @@
+
+
+http://www.w3.org/2011/audio/wiki/Basic-Examples
+http://www.musicdsp.org/files/Audio-EQ-Cookbook.txt
+http://www.w3.org/2011/audio/drafts/1WD/WebAudio/#BiquadFilterNode-section
+
+http://www.smartjava.org/content/exploring-html5-web-audio-visualizing-sound

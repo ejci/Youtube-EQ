@@ -1,0 +1,27 @@
+{
+	"name": "Yotube EQ",
+	"description": "Yotube HTML5 Audio Equalizer",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"permissions": ["webRequest", "webRequestBlocking", "*://*.youtube.com/*", "storage"],
+	"background": {
+		"scripts": ["youtubeEqBg.js"]
+	},
+	"content_scripts": [
+		{
+			"js": ["lib/jquery-1.8.2.min.js", "youtubeEq.js"],
+			"matches": ["*://*.youtube.com/*"]
+		}
+	],
+	"app": {
+		"launch": {
+			"local_path": "app.html"
+		}
+	},
+	"homepage_url": "http://ejci.net",
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+	}
+}
