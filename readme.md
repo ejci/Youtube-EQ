@@ -4,7 +4,7 @@ It is only a proof of concept. I will update it soon.
 More info [here](http://lab.ejci.net/YoutubeEQ/).
 
 
-@author [Miroslav Magda] (http://ejci.net)
+@author [Miroslav Magda](http://ejci.net)
 
 @version 0.0.1
 
