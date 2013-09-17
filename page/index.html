@@ -109,6 +109,9 @@
 				font-family: monaco, monospace;
 				font-size: .8em;
 			}
+			h1 {
+				font-size: 35px;
+			}
 
 			code .comment {
 				color: #888
@@ -151,8 +154,8 @@
         </div>
         <!-- Begin page content -->
         <div class="container">
-            <p class="lead">
-                Youtube HTML5 Audio Equalizer
+            <p>
+                <h1>Youtube HTML5 Audio Equalizer</h1>
             </p>
 
             <div id="carousel" class="carousel slide" data-interval="2000">
@@ -170,16 +173,28 @@
                 <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
             </div>
             <div class="jumbotron">
-                <a class="btn btn-large btn-primary" href="YoutubeEQ_v0.0.1.crx.zip">Download Chrome Extension v0.0.1</a>
+                <a class="btn btn-large btn-primary" href="http://lab.ejci.net/YoutubeEQ_v0.0.1.crx.zip">Download Chrome Extension v0.0.1</a>
+                <h4><b>or</b></h4>
+                <a class="btn" href="https://github.com/ejci/Youtube-EQ">View source on bitbucket.org</a>
             </div>
             <section id="roadmap">
                 <h3>Instalation</h3>
                 <ul>
-                    <li><a href="YoutubeEQ_v0.0.1.crx.zip">Download extension</a> (.zip)</li>
-                    <li>Unzip downloaded file (.crx)</li>
-                    <li>Type <code>chrome://extensions</code> in your Google Chrome browser</li>
-                    <li>Drag and drop unziped (.crx) file to Google Chrome extensions tab</li>
-                </ul>    
+                    <li>
+                        <a href="http://lab.ejci.net/YoutubeEQ_v0.0.1.crx.zip">Download extension</a> (.zip)
+                    </li>
+                    <li>
+                        Unzip downloaded file (.crx)
+                    </li>
+                    <li>
+                        Type <code>
+                            chrome://extensions</code>
+                        in your Google Chrome browser
+                    </li>
+                    <li>
+                        Drag and drop unziped (.crx) file to Google Chrome extensions tab
+                    </li>
+                </ul>
                 <h3>Road map</h3>
                 <ul>
                     <li>
@@ -234,6 +249,22 @@
         <!--script src="http://code.jquery.com/jquery-latest.js"></script-->
         <script src="js/jquery-1.7.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] ||
+                function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+            ga('create', 'UA-32777257-4', 'ejci.net');
+            ga('send', 'pageview');
+
+        </script>
     </body>
 </html>
