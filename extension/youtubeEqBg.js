@@ -1,8 +1,7 @@
-/*chrome.extension.onRequest.addListener(function(request, sender) {
- chrome.tabs.update(sender.tab.id, {
- url : request.redirect
- });
- });
+/**
+ * @fileOverview Youtube EQ Google Chrome extension
+ * @author Miroslav Magda, http://blog.ejci.net
+ * @version 0.1.0
  */
 
 chrome.webRequest.onBeforeRequest.addListener(function(info) {

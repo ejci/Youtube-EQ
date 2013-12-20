@@ -1,9 +1,10 @@
 Youtube HTML5 Audio Equalizer
 =======
-[Chrome Audio EQ](http://lab.ejci.net/Chrome-Audio-EQ/).
- 
-@author [Miroslav Magda](http://ejci.net)
+This extension is not maintained anymore. Please use [Chrome Audio EQ](http://lab.ejci.net/Chrome-Audio-EQ/)instead.
 
-@version 0.0.1
+ 
+Author: [Miroslav Magda](http://ejci.net)
+
+Version: 0.0.1
 
 
